@@ -40,7 +40,10 @@ a {
   color: black;
   font-weight:600;
 }
-.aligncenter {text-align:center; margin:0 auto;}
+.aligncenter {
+  text-align:center;
+  margin:0 auto;
+}
 
 
 a:hover,
@@ -177,7 +180,7 @@ a:focus {
   outline: none;
 }
 .item-container {
-  float: right;
+  float: left;
   margin: 50px 10%;
   display: flex;
   flex-wrap: wrap;
