@@ -36,12 +36,12 @@ a {
 }
 
 a {
-  background-color: #FA800A;
   font-size:18px;
   color: black;
   font-weight:600;
-
 }
+.aligncenter {text-align:center; margin:0 auto;}
+
 
 a:hover,
 a:focus {
