@@ -99,7 +99,8 @@ window.addEventListener('DOMContentLoaded', function(){
   var cancel = document.querySelector('#create-item-modal .modal-cancel-button');
   var accept = document.querySelector('#create-item-modal .modal-accept-button');
   var search = document.getElementById('navbar-search-input');
-
+  var buy = document.getElementsByClassName('item-cart');
+  
   for(var i = 0; i < items.length; i++){
     all_items.push(items[i]);
   }
@@ -109,7 +110,10 @@ window.addEventListener('DOMContentLoaded', function(){
   cancel.addEventListener('click',close_create);
   accept.addEventListener('click', insert_new_item);
   search.addEventListener('input', search_item);
-
+  
+  for(var i=0; i<100; i++){
+  buy[i].addEventListener('click', buyit);
+  }
 
 
 });
